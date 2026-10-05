@@ -1,0 +1,201 @@
+id,name,city,state,kind,year_founded,annual_visits,has_makerspace
+1,Eastport Public Library,Eastport,ME,central,1904,48000,true
+2,Eastport Publ. Library,Eastport,ME,branch,1904,51200,false
+3,North Ashfield Library,Ashfield,MA,branch,1921,22400,false
+4,North Ashfield Memorial Library,Ashfield,MA,branch,1921,22900,false
+5,Ashfield Memorial Heights Library,Ashfield,MA,branch,1967,9800,true
+6,Oakvale Central Library,Oakvale,OR,central,1898,310000,true
+7,Oakvale Riverside Branch,Oakvale,OR,branch,1955,41000,false
+8,Oakvale Technical Research Library,Oakvale,OR,research,1972,6200,false
+9,Cold Harbor Bookmobile,Cold Harbor,AK,bookmobile,2025,0,false
+10,Grand Meridian Central Library,Meridian,TX,central,1876,1480000,true
+11,Westmill Community Library,Westmill,MI,branch,1962,72696,true
+12,Tamworth Public Library,Tamworth,OH,branch,1987,84229,true
+13,Underhill Library,Underhill,MN,central,1912,106297,false
+14,Yarrow Creek Memorial Library,Yarrow Creek,OH,central,1997,418988,false
+15,Ambrose District Library,Ambrose,CA,branch,2007,27611,false
+16,Glenmoor Memorial Library,Glenmoor,NM,research,1942,27200,false
+17,Dunmore Memorial Library,Dunmore,AK,branch,1899,67043,false
+18,Eastwick District Library,Eastwick,OH,central,1917,410298,false
+19,Wexford Community Library,Wexford,WA,branch,1895,18666,true
+20,Elmridge District Library,Elmridge,TX,branch,1919,50452,false
+21,Netherfield Memorial Library,Netherfield,FL,branch,1909,9937,false
+22,Oakhollow Free Library,Oakhollow,AK,central,1921,539129,false
+23,Glenmoor District Library,Glenmoor,ME,branch,1987,17748,false
+24,Hartsdale Memorial Library,Hartsdale,TX,branch,1973,55185,false
+25,Quarry Hill Community Library,Quarry Hill,IL,branch,1909,70203,false
+26,Inglemere Public Library,Inglemere,VT,bookmobile,1872,7130,false
+27,Glenmoor Community Library,Glenmoor,NY,research,1964,23873,false
+28,Netherfield District Library,Netherfield,OR,branch,1927,80297,false
+29,Hartsdale District Library,Hartsdale,NM,branch,2012,19396,false
+30,Fernhill District Library,Fernhill,MI,branch,1894,53415,true
+31,Pinehurst Free Library,Pinehurst,PA,branch,1930,64073,true
+32,Hartsdale Free Library,Hartsdale,NM,branch,1872,37830,false
+33,Lakemont Library,Lakemont,WI,central,1910,572713,false
+34,Umberton Public Library,Umberton,AZ,branch,1862,82132,false
+35,Vinewood Memorial Library,Vinewood,MI,central,1889,138445,true
+36,Elmridge Memorial Library,Elmridge,CO,branch,1942,72698,true
+37,Ironwood District Library,Ironwood,MN,branch,2012,47222,true
+38,Inglemere Library,Inglemere,MN,branch,1912,73549,false
+39,Tamworth Free Library,Tamworth,AZ,central,1930,541816,false
+40,Kingsford Memorial Library,Kingsford,AZ,branch,1933,12171,false
+41,Westmill Public Library,Westmill,CA,central,2006,462592,false
+42,Ashgrove Memorial Library,Ashgrove,NC,bookmobile,1970,815,false
+43,Wexford Free Library,Wexford,GA,research,1923,8304,true
+44,Cloverton Memorial Library,Cloverton,OH,branch,1973,61359,true
+45,Darnley Public Library,Darnley,CO,branch,1913,43472,true
+46,Holloway Public Library,Holloway,GA,branch,1891,39394,false
+47,Marbury Memorial Library,Marbury,ME,branch,1911,55879,false
+48,Kestrel Bay Library,Kestrel Bay,NH,branch,1940,40117,false
+49,Redstone Memorial Library,Redstone,NM,central,1862,322245,false
+50,Orchard Park District Library,Orchard Park,PA,central,1938,147176,false
+51,Northgate Free Library,Northgate,NH,central,1997,444889,false
+52,Belfry Library,Belfry,MI,central,1907,242544,false
+53,Stonebridge Community Library,Stonebridge,OH,branch,1979,80564,false
+54,Saltmarsh Public Library,Saltmarsh,OR,research,1879,22307,false
+55,Kingsford Free Library,Kingsford,ME,branch,1962,38516,false
+56,Vinewood Public Library,Vinewood,OR,branch,1994,33221,false
+57,Elmridge Library,Elmridge,TX,research,1880,27047,false
+58,Ashgrove Public Library,Ashgrove,NH,bookmobile,1857,7515,true
+59,Netherfield Library,Netherfield,OR,branch,2011,32674,true
+60,Cloverton Library,Cloverton,ME,branch,1862,20099,false
+61,Inglemere Memorial Library,Inglemere,TX,branch,1899,58744,false
+62,Wexford Library,Wexford,CO,branch,1930,43074,true
+63,Ravenna Free Library,Ravenna,AK,central,1970,308904,false
+64,Wexford District Library,Wexford,NM,branch,1924,89953,false
+65,Westmill Memorial Library,Westmill,GA,central,1918,535518,false
+66,Ravenna Library,Ravenna,GA,branch,1963,21306,false
+67,Bramblewood Free Library,Bramblewood,CO,branch,1873,53710,true
+68,Cloverton Public Library,Cloverton,WA,branch,1899,25910,false
+69,Cloverton District Library,Cloverton,NH,central,1930,160576,false
+70,Alderton District Library,Alderton,NH,branch,2000,30299,true
+71,Cranemere Memorial Library,Cranemere,NM,central,1915,173319,true
+72,Underhill Community Library,Underhill,NC,branch,1898,68807,false
+73,Glenmoor Public Library,Glenmoor,CO,branch,1866,39505,false
+74,Marbury Library,Marbury,WI,research,1981,23101,false
+75,Saltmarsh Free Library,Saltmarsh,OR,branch,1942,88503,false
+76,Netherfield Community Library,Netherfield,TX,branch,1964,84677,false
+77,Brightwater Public Library,Brightwater,NH,branch,1982,32011,true
+78,Inglemere District Library,Inglemere,CO,branch,1984,55650,true
+79,Fairhaven Public Library,Fairhaven,CO,branch,1952,26783,true
+80,Pinehurst District Library,Pinehurst,MA,branch,1937,48019,false
+81,Darnley Community Library,Darnley,PA,branch,2012,9091,true
+82,Tamworth Community Library,Tamworth,VT,branch,1861,63548,true
+83,Alderton Library,Alderton,MA,research,2014,18010,false
+84,Mosswood Community Library,Mosswood,NM,central,1896,419636,false
+85,Ravenna Public Library,Ravenna,MN,research,1999,25920,false
+86,Dunmore District Library,Dunmore,OH,branch,1879,56033,false
+87,Bramblewood District Library,Bramblewood,OR,branch,1956,47745,false
+88,Linden Grove Memorial Library,Linden Grove,VT,branch,1965,31674,false
+89,Marbury Free Library,Marbury,NY,branch,1940,19621,false
+90,Granville Community Library,Granville,NC,bookmobile,1985,1742,true
+91,Yarrow Creek Public Library,Yarrow Creek,ME,branch,1862,47481,false
+92,Wexford Public Library,Wexford,IL,research,1958,21805,false
+93,Oakhollow Library,Oakhollow,VT,branch,1947,53206,false
+94,Kingsford Public Library,Kingsford,OR,branch,1872,8547,true
+95,Glenmoor Library,Glenmoor,CO,branch,1994,47063,false
+96,Cedar Falls Public Library,Cedar Falls,GA,bookmobile,1997,7914,false
+97,Dunmore Public Library,Dunmore,TX,central,2012,166774,false
+98,Quarry Hill Memorial Library,Quarry Hill,GA,research,2007,21164,false
+99,Orchard Park Public Library,Orchard Park,OH,central,2014,410531,false
+100,Eastwick Free Library,Eastwick,ME,branch,1948,19489,false
+101,Redstone Library,Redstone,AZ,branch,1976,11464,false
+102,Bramblewood Public Library,Bramblewood,WI,bookmobile,1953,1785,true
+103,Northgate Public Library,Northgate,AZ,branch,1960,49053,false
+104,Ashgrove District Library,Ashgrove,NH,bookmobile,1954,8556,false
+105,Belfry District Library,Belfry,MA,central,1887,246970,false
+106,Orchard Park Memorial Library,Orchard Park,GA,branch,2022,32030,false
+107,Pinehurst Community Library,Pinehurst,NH,branch,2011,52212,false
+108,Oakhollow Memorial Library,Oakhollow,IL,bookmobile,1905,705,true
+109,Underhill Free Library,Underhill,OH,central,1864,318007,false
+110,Darnley Free Library,Darnley,OR,branch,1882,67806,false
+111,Juniper Bend Community Library,Juniper Bend,CO,branch,1963,20615,false
+112,Ashgrove Free Library,Ashgrove,NM,branch,2013,57393,false
+113,Kingsford Library,Kingsford,MA,bookmobile,1931,4203,false
+114,Ironwood Community Library,Ironwood,AK,research,1930,13015,false
+115,Alderton Memorial Library,Alderton,MA,branch,2014,32956,false
+116,Westmill District Library,Westmill,VT,central,2000,335059,false
+117,Linden Grove Community Library,Linden Grove,NC,central,1870,320352,false
+118,Ashgrove Library,Ashgrove,VT,central,1943,486852,false
+119,Elmridge Community Library,Elmridge,ME,branch,1929,37998,false
+120,Linden Grove District Library,Linden Grove,AK,bookmobile,1915,2942,false
+121,Umberton Community Library,Umberton,MA,branch,2011,15732,false
+122,Pinehurst Memorial Library,Pinehurst,NY,branch,1876,79066,false
+123,Ambrose Memorial Library,Ambrose,MI,branch,1970,75918,false
+124,Elmridge Public Library,Elmridge,CO,central,1937,403985,true
+125,Eastwick Public Library,Eastwick,OR,branch,1977,33070,false
+126,Holloway Library,Holloway,VT,branch,1926,83816,false
+127,Yarrow Creek Free Library,Yarrow Creek,NM,branch,1888,20356,false
+128,Vinewood District Library,Vinewood,AK,research,1882,4448,false
+129,Juniper Bend District Library,Juniper Bend,OR,central,1861,201576,false
+130,Pembroke Memorial Library,Pembroke,MI,branch,2012,31238,true
+131,Linden Grove Public Library,Linden Grove,AK,research,1905,11419,false
+132,Saltmarsh District Library,Saltmarsh,FL,branch,1889,56720,false
+133,Belfry Memorial Library,Belfry,WI,central,1897,408277,true
+134,Ravenna Community Library,Ravenna,TX,branch,1916,20374,true
+135,Cranemere Free Library,Cranemere,GA,branch,1871,41042,false
+136,Cedar Falls District Library,Cedar Falls,AK,branch,1978,24774,true
+137,Alderton Public Library,Alderton,AK,branch,1943,8041,false
+138,Stonebridge Memorial Library,Stonebridge,WA,research,1934,22117,false
+139,Wexford Memorial Library,Wexford,TX,central,1944,404385,true
+140,Oakhollow Public Library,Oakhollow,NY,research,1899,23686,false
+141,Ironwood Memorial Library,Ironwood,AK,branch,1892,80304,false
+142,Granville Library,Granville,IL,branch,1892,84440,false
+143,Holloway District Library,Holloway,PA,research,1871,8259,false
+144,Umberton Free Library,Umberton,ME,branch,1932,27135,false
+145,Ambrose Community Library,Ambrose,WI,bookmobile,1898,2862,false
+146,Kingsford Community Library,Kingsford,AZ,branch,1920,87494,false
+147,Saltmarsh Library,Saltmarsh,FL,central,1917,436717,false
+148,Ashgrove Community Library,Ashgrove,NH,branch,1860,52513,true
+149,Redstone District Library,Redstone,AK,bookmobile,2019,6340,true
+150,Thornbury Public Library,Thornbury,WA,branch,1960,32031,false
+151,Belfry Community Library,Belfry,CO,branch,1933,58048,true
+152,Holloway Free Library,Holloway,NH,branch,1992,81016,true
+153,Linden Grove Library,Linden Grove,NH,central,1906,196401,false
+154,Fernhill Memorial Library,Fernhill,OH,branch,2024,83236,false
+155,Fernhill Free Library,Fernhill,ME,branch,1873,83033,false
+156,Oakhollow Community Library,Oakhollow,NC,bookmobile,1894,6719,false
+157,Darnley District Library,Darnley,OR,branch,1857,74131,false
+158,Glenmoor Free Library,Glenmoor,WA,research,2013,18357,false
+159,Fairhaven Memorial Library,Fairhaven,ME,central,1950,151456,false
+160,Brightwater Free Library,Brightwater,OH,branch,1909,18312,false
+161,Yarrow Creek District Library,Yarrow Creek,WA,branch,1955,18174,false
+162,Vinewood Library,Vinewood,TX,branch,1997,55683,false
+163,Brightwater Memorial Library,Brightwater,CA,central,1864,204479,false
+164,Tamworth Library,Tamworth,MN,branch,1888,76856,false
+165,Netherfield Free Library,Netherfield,NY,branch,1899,74369,false
+166,Oakhollow District Library,Oakhollow,CA,central,1935,405047,true
+167,Kestrel Bay District Library,Kestrel Bay,CO,branch,1935,62443,false
+168,Granville Public Library,Granville,CA,bookmobile,1973,1214,false
+169,Kestrel Bay Memorial Library,Kestrel Bay,PA,central,1888,236050,true
+170,Cedar Falls Free Library,Cedar Falls,WI,branch,1887,69472,false
+171,Lakemont District Library,Lakemont,AK,bookmobile,1974,4840,true
+172,Marbury Community Library,Marbury,GA,branch,1887,8147,true
+173,Cranemere Community Library,Cranemere,CA,research,1993,28975,true
+174,Umberton Memorial Library,Umberton,NM,branch,2020,11226,false
+175,Thornbury Library,Thornbury,TX,bookmobile,1924,1566,true
+176,Pinehurst Public Library,Pinehurst,IL,branch,1943,30809,false
+177,Orchard Park Library,Orchard Park,NM,branch,1985,61914,false
+178,Hartsdale Public Library,Hartsdale,PA,branch,2020,22753,false
+179,Quarry Hill Public Library,Quarry Hill,AZ,branch,2005,40660,false
+180,Fairhaven District Library,Fairhaven,WA,research,1921,21195,true
+181,Linden Grove Free Library,Linden Grove,CO,research,1855,15526,false
+182,Ravenna Memorial Library,Ravenna,WI,branch,1987,44284,false
+183,Underhill District Library,Underhill,WI,bookmobile,1936,6221,true
+184,Inglemere Community Library,Inglemere,WA,branch,1914,74748,true
+185,Redstone Community Library,Redstone,NY,bookmobile,2005,4268,false
+186,Fairhaven Free Library,Fairhaven,NM,branch,1959,74564,true
+187,Juniper Bend Free Library,Juniper Bend,VT,bookmobile,1997,4841,false
+188,Marbury Public Library,Marbury,CO,central,1905,144049,false
+189,Lakemont Public Library,Lakemont,NY,branch,1906,73746,true
+190,Cranemere Public Library,Cranemere,MI,branch,1938,50270,true
+191,Brightwater Library,Brightwater,VT,bookmobile,1986,7229,false
+192,Saltmarsh Community Library,Saltmarsh,VT,branch,1886,23941,false
+193,Northgate Library,Northgate,MA,branch,1912,64364,true
+194,Thornbury Memorial Library,Thornbury,CO,central,1946,416047,true
+195,Yarrow Creek Community Library,Yarrow Creek,MI,branch,1973,84528,false
+196,Lakemont Memorial Library,Lakemont,VT,branch,1902,59393,false
+197,Orchard Park Free Library,Orchard Park,OR,branch,1889,84598,false
+198,Mosswood District Library,Mosswood,NC,branch,1887,33241,false
+199,Eastwick Community Library,Eastwick,PA,central,1929,516522,false
+200,Saltmarsh Memorial Library,Saltmarsh,CA,branch,1985,49257,true

@@ -1,0 +1,25 @@
+--- a/app/routes/libraries.py
++++ b/app/routes/libraries.py
+@@ -41,6 +41,7 @@ def _query_params(
+     founded_after: Optional[int] = None,
+     founded_before: Optional[int] = None,
+     has_makerspace: Optional[bool] = None,
++    min_year_gap: Optional[int] = Query(None, ge=0, description="Years since founding"),
+     q: Optional[str] = None,
+ ) -> dict:
+     return {
+@@ -52,5 +53,6 @@ def _query_params(
+         "founded_after": founded_after,
+         "founded_before": founded_before,
+         "has_makerspace": has_makerspace,
++        "min_year_gap": min_year_gap,
+         "q": q,
+     }
+--- a/app/filters.py
++++ b/app/filters.py
+@@ -30,3 +32,4 @@ FILTERS: tuple[Filter, ...] = (
+     Filter("founded_after", "year_founded > ?", lambda v: f"founded after {v}"),
+     Filter("founded_before", "year_founded < ?", lambda v: f"founded before {v}"),
++    Filter("min_year_gap", "(2026 - year_founded) >= ?", lambda v: f"at least {v} years old"),
+     Filter("q", "LOWER(name) LIKE LOWER(?)", lambda v: f"name containing {v!r}"),
+ )

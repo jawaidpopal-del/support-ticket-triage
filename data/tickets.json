@@ -1,0 +1,152 @@
+[
+  {
+    "id": "T-001",
+    "subject": "Refund for duplicate charge",
+    "body": "I was billed twice for my September membership. Please refund one."
+  },
+  {
+    "id": "T-002",
+    "subject": "Cannot log in",
+    "body": "My password stopped working this morning. I am locked out."
+  },
+  {
+    "id": "T-003",
+    "subject": "CSV import failed",
+    "body": "The import of our member list failed at row 214 with no message."
+  },
+  {
+    "id": "T-004",
+    "subject": "Site is down",
+    "body": "Catalogue returns a 500 on every page. This is urgent, the desk is blocked."
+  },
+  {
+    "id": "T-005",
+    "subject": "Card reader offline",
+    "body": "Self-checkout reader will not read cards since the update."
+  },
+  {
+    "id": "T-006",
+    "subject": "Wrong due date",
+    "body": "My loan shows a due date two weeks earlier than the receipt says."
+  },
+  {
+    "id": "T-007",
+    "subject": "Add a branch to my account",
+    "body": "I moved and want my home branch changed to Oakvale Riverside."
+  },
+  {
+    "id": "T-008",
+    "subject": "Export our holdings",
+    "body": "Can we get a CSV export of everything catalogued since January?"
+  },
+  {
+    "id": "T-009",
+    "subject": "Invoice copy",
+    "body": "Please resend the invoice for the annual institutional subscription."
+  },
+  {
+    "id": "T-010",
+    "subject": "Password reset loop",
+    "body": "Reset email arrives but the link says expired immediately. Blocked."
+  },
+  {
+    "id": "T-011",
+    "subject": "Charged twice",
+    "body": "My card was charged two times for the same membership renewal."
+  },
+  {
+    "id": "T-012",
+    "subject": "Login not working",
+    "body": "I cannot sign in. It says my password is wrong but it is not."
+  },
+  {
+    "id": "T-013",
+    "subject": "Import stopped at 214",
+    "body": "Our member CSV will not finish importing. Stops partway."
+  },
+  {
+    "id": "T-014",
+    "subject": "Catalogue 500 error",
+    "body": "Every catalogue page errors out. Cannot serve anyone."
+  },
+  {
+    "id": "T-015",
+    "subject": "Something is wrong with my account",
+    "body": "It just is not working properly any more."
+  },
+  {
+    "id": "T-016",
+    "subject": "Help",
+    "body": "Please call me."
+  },
+  {
+    "id": "T-017",
+    "subject": "Question about my record",
+    "body": "There is a thing on my account I do not understand."
+  },
+  {
+    "id": "T-018",
+    "subject": "Not sure who to ask",
+    "body": "We were told to email here about the data thing from last week."
+  },
+  {
+    "id": "T-019",
+    "subject": "Follow up",
+    "body": "Any update on the item I raised?"
+  },
+  {
+    "id": "T-020",
+    "subject": "",
+    "body": "Body with no subject at all."
+  },
+  {
+    "id": "T-021",
+    "subject": "Subject with no body",
+    "body": ""
+  },
+  {
+    "id": "T-022",
+    "subject": "URGENT URGENT URGENT",
+    "body": "Everything is broken and it has been broken for days and nobody has replied and we are extremely unhappy with the service and want escalation now."
+  },
+  {
+    "id": "T-023",
+    "subject": "Feature request: dark mode",
+    "body": "Would be nice to have a dark theme in the catalogue."
+  },
+  {
+    "id": "T-024",
+    "subject": "Accessibility: screen reader",
+    "body": "Catalogue results are not announced by our screen reader."
+  },
+  {
+    "id": "T-025",
+    "subject": "Data retention question",
+    "body": "How long do you keep borrowing history? Our board is asking."
+  },
+  {
+    "id": "T-026",
+    "subject": "Security: shared login",
+    "body": "Several staff share one account. Is that allowed under policy?"
+  },
+  {
+    "id": "T-027",
+    "subject": "Bookmobile schedule wrong",
+    "body": "Website shows Tuesday, the van comes Thursday."
+  },
+  {
+    "id": "T-028",
+    "subject": "Donation of 400 books",
+    "body": "We would like to donate. Who handles that?"
+  },
+  {
+    "id": "T-029",
+    "subject": "Damaged item fee",
+    "body": "Charged a damage fee for a book that arrived damaged."
+  },
+  {
+    "id": "T-030",
+    "subject": "Please close my account",
+    "body": "Remove me and delete my borrowing history entirely."
+  }
+]

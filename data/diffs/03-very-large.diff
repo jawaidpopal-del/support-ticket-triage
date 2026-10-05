@@ -1,0 +1,496 @@
+--- a/app/legacy/naming.py
++++ b/app/legacy/naming.py
+@@ -1,10 +1,10 @@ def normalise_block_0(value):
+ # context line 1
+ # context line 2
+ # context line 3
+ # context line 4
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 7
+ # context line 8
+ # context line 9
+ # context line 10
+@@ -13,10 +13,10 @@ def normalise_block_1(value):
+ # context line 13
+ # context line 14
+ # context line 15
+ # context line 16
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 19
+ # context line 20
+ # context line 21
+ # context line 22
+@@ -25,10 +25,10 @@ def normalise_block_2(value):
+ # context line 25
+ # context line 26
+ # context line 27
+ # context line 28
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 31
+ # context line 32
+ # context line 33
+ # context line 34
+@@ -37,10 +37,10 @@ def normalise_block_3(value):
+ # context line 37
+ # context line 38
+ # context line 39
+ # context line 40
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 43
+ # context line 44
+ # context line 45
+ # context line 46
+@@ -49,10 +49,10 @@ def normalise_block_4(value):
+ # context line 49
+ # context line 50
+ # context line 51
+ # context line 52
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 55
+ # context line 56
+ # context line 57
+ # context line 58
+@@ -61,10 +61,10 @@ def normalise_block_5(value):
+ # context line 61
+ # context line 62
+ # context line 63
+ # context line 64
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 67
+ # context line 68
+ # context line 69
+ # context line 70
+@@ -73,10 +73,10 @@ def normalise_block_6(value):
+ # context line 73
+ # context line 74
+ # context line 75
+ # context line 76
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 79
+ # context line 80
+ # context line 81
+ # context line 82
+@@ -85,10 +85,10 @@ def normalise_block_7(value):
+ # context line 85
+ # context line 86
+ # context line 87
+ # context line 88
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 91
+ # context line 92
+ # context line 93
+ # context line 94
+@@ -97,10 +97,10 @@ def normalise_block_8(value):
+ # context line 97
+ # context line 98
+ # context line 99
+ # context line 100
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 103
+ # context line 104
+ # context line 105
+ # context line 106
+@@ -109,10 +109,10 @@ def normalise_block_9(value):
+ # context line 109
+ # context line 110
+ # context line 111
+ # context line 112
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 115
+ # context line 116
+ # context line 117
+ # context line 118
+@@ -121,10 +121,10 @@ def normalise_block_10(value):
+ # context line 121
+ # context line 122
+ # context line 123
+ # context line 124
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 127
+ # context line 128
+ # context line 129
+ # context line 130
+@@ -133,10 +133,10 @@ def normalise_block_11(value):
+ # context line 133
+ # context line 134
+ # context line 135
+ # context line 136
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 139
+ # context line 140
+ # context line 141
+ # context line 142
+@@ -145,10 +145,10 @@ def normalise_block_12(value):
+ # context line 145
+ # context line 146
+ # context line 147
+ # context line 148
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 151
+ # context line 152
+ # context line 153
+ # context line 154
+@@ -157,10 +157,10 @@ def normalise_block_13(value):
+ # context line 157
+ # context line 158
+ # context line 159
+ # context line 160
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 163
+ # context line 164
+ # context line 165
+ # context line 166
+@@ -169,10 +169,10 @@ def normalise_block_14(value):
+ # context line 169
+ # context line 170
+ # context line 171
+ # context line 172
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 175
+ # context line 176
+ # context line 177
+ # context line 178
+@@ -181,10 +181,10 @@ def normalise_block_15(value):
+ # context line 181
+ # context line 182
+ # context line 183
+ # context line 184
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 187
+ # context line 188
+ # context line 189
+ # context line 190
+@@ -193,10 +193,10 @@ def normalise_block_16(value):
+ # context line 193
+ # context line 194
+ # context line 195
+ # context line 196
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 199
+ # context line 200
+ # context line 201
+ # context line 202
+@@ -205,10 +205,10 @@ def normalise_block_17(value):
+ # context line 205
+ # context line 206
+ # context line 207
+ # context line 208
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 211
+ # context line 212
+ # context line 213
+ # context line 214
+@@ -217,10 +217,10 @@ def normalise_block_18(value):
+ # context line 217
+ # context line 218
+ # context line 219
+ # context line 220
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 223
+ # context line 224
+ # context line 225
+ # context line 226
+@@ -229,10 +229,10 @@ def normalise_block_19(value):
+ # context line 229
+ # context line 230
+ # context line 231
+ # context line 232
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 235
+ # context line 236
+ # context line 237
+ # context line 238
+@@ -241,10 +241,10 @@ def normalise_block_20(value):
+ # context line 241
+ # context line 242
+ # context line 243
+ # context line 244
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 247
+ # context line 248
+ # context line 249
+ # context line 250
+@@ -253,10 +253,10 @@ def normalise_block_21(value):
+ # context line 253
+ # context line 254
+ # context line 255
+ # context line 256
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 259
+ # context line 260
+ # context line 261
+ # context line 262
+@@ -265,10 +265,10 @@ def normalise_block_22(value):
+ # context line 265
+ # context line 266
+ # context line 267
+ # context line 268
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 271
+ # context line 272
+ # context line 273
+ # context line 274
+@@ -277,10 +277,10 @@ def normalise_block_23(value):
+ # context line 277
+ # context line 278
+ # context line 279
+ # context line 280
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 283
+ # context line 284
+ # context line 285
+ # context line 286
+@@ -289,10 +289,10 @@ def normalise_block_24(value):
+ # context line 289
+ # context line 290
+ # context line 291
+ # context line 292
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 295
+ # context line 296
+ # context line 297
+ # context line 298
+@@ -301,10 +301,10 @@ def normalise_block_25(value):
+ # context line 301
+ # context line 302
+ # context line 303
+ # context line 304
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 307
+ # context line 308
+ # context line 309
+ # context line 310
+@@ -313,10 +313,10 @@ def normalise_block_26(value):
+ # context line 313
+ # context line 314
+ # context line 315
+ # context line 316
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 319
+ # context line 320
+ # context line 321
+ # context line 322
+@@ -325,10 +325,10 @@ def normalise_block_27(value):
+ # context line 325
+ # context line 326
+ # context line 327
+ # context line 328
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 331
+ # context line 332
+ # context line 333
+ # context line 334
+@@ -337,10 +337,10 @@ def normalise_block_28(value):
+ # context line 337
+ # context line 338
+ # context line 339
+ # context line 340
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 343
+ # context line 344
+ # context line 345
+ # context line 346
+@@ -349,10 +349,10 @@ def normalise_block_29(value):
+ # context line 349
+ # context line 350
+ # context line 351
+ # context line 352
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 355
+ # context line 356
+ # context line 357
+ # context line 358
+@@ -361,10 +361,10 @@ def normalise_block_30(value):
+ # context line 361
+ # context line 362
+ # context line 363
+ # context line 364
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 367
+ # context line 368
+ # context line 369
+ # context line 370
+@@ -373,10 +373,10 @@ def normalise_block_31(value):
+ # context line 373
+ # context line 374
+ # context line 375
+ # context line 376
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 379
+ # context line 380
+ # context line 381
+ # context line 382
+@@ -385,10 +385,10 @@ def normalise_block_32(value):
+ # context line 385
+ # context line 386
+ # context line 387
+ # context line 388
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 391
+ # context line 392
+ # context line 393
+ # context line 394
+@@ -397,10 +397,10 @@ def normalise_block_33(value):
+ # context line 397
+ # context line 398
+ # context line 399
+ # context line 400
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 403
+ # context line 404
+ # context line 405
+ # context line 406
+@@ -409,10 +409,10 @@ def normalise_block_34(value):
+ # context line 409
+ # context line 410
+ # context line 411
+ # context line 412
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 415
+ # context line 416
+ # context line 417
+ # context line 418
+@@ -421,10 +421,10 @@ def normalise_block_35(value):
+ # context line 421
+ # context line 422
+ # context line 423
+ # context line 424
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 427
+ # context line 428
+ # context line 429
+ # context line 430
+@@ -433,10 +433,10 @@ def normalise_block_36(value):
+ # context line 433
+ # context line 434
+ # context line 435
+ # context line 436
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 439
+ # context line 440
+ # context line 441
+ # context line 442
+@@ -445,9 +445,9 @@ def normalise_block_37(value):
+ # context line 445
+ # context line 446
+ # context line 447
+ # context line 448
+-    facility_name = value.get('facility_name')
++    facility_name = value.get('name')
+-    if facility_name and facility_name.strip():
++    if facility_name and facility_name.strip() != '':
+ # context line 451
+ # context line 452
+ # context line 453
+ # context line 454

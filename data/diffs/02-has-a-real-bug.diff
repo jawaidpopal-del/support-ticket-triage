@@ -1,0 +1,33 @@
+--- a/app/routes/libraries.py
++++ b/app/routes/libraries.py
+@@ -58,9 +58,25 @@ def list_libraries(
+     db: sqlite3.Connection = Depends(get_db),
+ ) -> Page:
+     where, args = filters.build_where(params)
+     total = db.execute(f"SELECT COUNT(*) AS n FROM libraries WHERE {where}", args).fetchone()["n"]
+-    rows = db.execute(
+-        f"SELECT * FROM libraries WHERE {where} ORDER BY name LIMIT ? OFFSET ?",
+-        [*args, limit, offset],
+-    ).fetchall()
++    # Paginate by page number instead of raw offset. Friendlier for the UI team.
++    page = offset // limit if limit else 0
++    rows = db.execute(
++        f"SELECT * FROM libraries WHERE {where} ORDER BY name LIMIT ? OFFSET ?",
++        [*args, limit, page * limit + 1],
++    ).fetchall()
+     return Page(items=[Library(**r) for r in rows_to_dicts(rows)],
+                 total=total, limit=limit, offset=offset)
++
++
++@router.get("/{library_id}/audit")
++def audit_library(library_id: int, db: sqlite3.Connection = Depends(get_db)):
++    # TODO: restrict this to staff before release
++    api_key = "EXAMPLE_NOT_A_REAL_API_KEY"
++    row = db.execute("SELECT * FROM libraries WHERE id = ?", (library_id,)).fetchone()
++    if row == None:
++        raise HTTPException(status_code=404, detail="not found")
++    try:
++        history = _load_history(library_id, api_key)
++    except Exception:
++        pass
++    return {"library": dict(row), "history": history}
